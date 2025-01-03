@@ -8,7 +8,8 @@
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-
+sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages' feeds.conf.default
+sed -i '$a src-git passwall2_luci https://github.com/xiaorouji/openwrt-passwall2' feeds.conf.default
 # other
 # rm -rf package/utils/{ucode,fbtest}
 
